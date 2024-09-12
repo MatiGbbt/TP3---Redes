@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+// METODOSSSSSS-------------------
+service TaskService {
+  rpc GetTaskStats (Empty) returns (TaskCountResponse);
+  rpc GetTaskxUser (taskxuserRequest) returns (TaskxUserCountResponse);
+  rpc GetCotizaUsd (cotizaRequest) returns (CotizaUsdResponse);
+
+}
+
+
+// REQUESTTTTTT ----------------------------
+message Empty {}
+
+message taskxuserRequest {
+  string idUser = 1;
+}
+
+message cotizaRequest{
+  double dolares = 1;
+  
+}
+
+
+// RESPOSEEEEE ----------------
+message TaskCountResponse {
+  int32 count = 1; // Número de tareas
+}
+
+message TaskxUserCountResponse {
+  int32 count = 1; // Número de tareas x usuario
+}
+
+message CotizaUsdResponse {
+
+  message Data {
+    int32 value_avg = 1;
+    int32 value_sell = 2;
+    int32 value_buy = 3;
+  }
+
+  Data data = 1;// Cotizaciones API
+  double convertCpa = 2;// pesos conversión 
+  double convertVta = 3;// pesos conversión
+  string percentageDifference = 4;// percentage de differencia
+
+}

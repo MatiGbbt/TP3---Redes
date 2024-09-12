@@ -1,0 +1,12 @@
+COLECCIONES DE POSTMAN:
+https://www.postman.com/dark-rocket-521253/workspace/estudio/collection/26619184-ea97ebcd-6833-4cde-a6ee-78ef03cc6b2b?action=share&creator=26619184
+
+
+TP 3 REDES gRPC
+https://www.postman.com/dark-rocket-521253/workspace/estudio/collection/66da18ba38ff641975b9478d?action=share&creator=26619184
+
+
+TP 3 REDES REST TASKS
+https://www.postman.com/dark-rocket-521253/workspace/estudio/collection/26619184-ea97ebcd-6833-4cde-a6ee-78ef03cc6b2b?action=share&creator=26619184
+
+
