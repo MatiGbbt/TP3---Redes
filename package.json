@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "startClient": "node client.js",
+    "startServer": "node src/modelues/stats/stats.js"
   },
   "keywords": [],
   "author": "",
